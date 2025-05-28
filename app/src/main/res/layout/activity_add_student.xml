@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddStudentActivity"
+    android:background="@drawable/admintwo">
+
+    <EditText
+        android:id="@+id/StudentId" android:hint="@string/student_id"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:id="@+id/StudentName" android:hint="@string/student_name"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp"/>
+    <EditText
+        android:id="@+id/StudentSurname" android:hint="@string/surname"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp" />
+    <EditText
+        android:id="@+id/StudentDob" android:hint="@string/date_of_birth"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp"/>
+
+    <Button
+        android:id="@+id/btnSaveStudent"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:text="@string/save_student" />
+    <Button
+        android:id="@+id/btnViewStudents"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+
+        android:text="@string/view_students" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:contentDescription="@string/admin_page_image"
+        android:visibility="visible"
+        android:paddingTop="30dp"
+        app:srcCompat="@drawable/admin"
+        tools:ignore="MissingConstraints" />
+</LinearLayout>

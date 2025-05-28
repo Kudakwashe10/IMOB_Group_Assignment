@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation = "vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding = "16dp"
+    android:background="@drawable/admintwo"
+    tools:context=".InstructorDashboardActivity">
+
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:padding="100dp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="40dp">
+
+     <Button
+         android:id="@+id/btnCreateTask"
+         android:layout_width="200dp"
+         android:layout_height="50dp"
+         android:background="@color/material_dynamic_tertiary30"
+         android:text="@string/create_task"
+         android:textColor="#26C6DA" />
+
+ </LinearLayout>
+</LinearLayout>
+
+

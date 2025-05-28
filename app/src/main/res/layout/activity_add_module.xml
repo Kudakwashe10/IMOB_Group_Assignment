@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/admintwo">
+
+
+    <EditText
+        android:id="@+id/ModuleId" android:hint="@string/module_id"
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="100dp" />
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp" android:id="@+id/ModuleName" android:hint="@string/module_name" />
+    <EditText
+        android:layout_height="50dp"
+        android:layout_width="200dp"
+        android:layout_marginStart="99dp" android:id="@+id/ModuleDuration" android:hint="@string/duration" />
+    <Button
+        android:id="@+id/btnSaveModule" android:text="@string/save_module"
+        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/btnViewModule" android:text="@string/view_modules"
+        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:paddingTop="30dp"
+        app:srcCompat="@drawable/admin" />
+
+</LinearLayout>

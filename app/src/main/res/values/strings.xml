@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username">Please Enter Username</string>
+    <string name="password">Please Enter Password</string>
+    <string name="login">Login</string>
+    <string name="add_student">Add Student</string>
+    <string name="add_instructor">Add Instructor</string>
+    <string name="add_module">Add Module</string>
+    <string name="admin_page_image">admin_page_image</string>
+    <string name="create_task">Create Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="update_task">Update Task</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="view_tasks">View Tasks</string>
+    <string name="name">Name</string>
+    <string name="instructor_id">Instructor ID</string>
+    <string name="save">Save</string>
+    <string name="enter_task_duedate_day_month_year">Enter Task DueDate day/month/year</string>
+    <string name="enter_task_name">Enter Task Name</string>
+    <string name="enter_task_id">Enter Task Id</string>
+    <string name="save_task">Save</string>
+    <string name="enter_module_id">Enter module Id</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string-array name="roles_array">
+        <item>admin</item>
+        <item>instructor</item>
+        <item>student</item>
+    </string-array>
+    <string name="module_id">Module ID</string>
+    <string name="module_name">Module Name</string>
+    <string name="save_module">Save</string>
+    <string name="duration">Duration</string>
+    <string name="save_student">Save</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="surname">Surname</string>
+    <string name="student_name">Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="view_students">View Students</string>
+    <string name="view_modules">View Modules</string>
+    <string name="view_instructor">View Instructor</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="new_user_click_sign_up">New User? Click Sign Up</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="role_admin_instructor_student">Role (admin/instructor/student)</string>
+    <string name="register">Register</string>
+</resources>
